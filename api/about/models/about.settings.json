@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "about",
+  "info": {
+    "name": "about",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about": {
+      "type": "text"
+    }
+  }
+}

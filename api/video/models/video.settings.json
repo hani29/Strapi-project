@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video",
+  "info": {
+    "name": "video"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "src": {
+      "type": "string"
+    }
+  }
+}

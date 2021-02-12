@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog",
+  "info": {
+    "name": "blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "bid": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "synopsis": {
+      "type": "richtext"
+    }
+  }
+}

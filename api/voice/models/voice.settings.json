@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voice",
+  "info": {
+    "name": "voice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}
